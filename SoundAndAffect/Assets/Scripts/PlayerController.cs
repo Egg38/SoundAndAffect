@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    private float jumpForce = 15;
+    private float jumpForce = 10;
     public float gravityModifier;
     public bool isOnGround = true;
     void Start()
