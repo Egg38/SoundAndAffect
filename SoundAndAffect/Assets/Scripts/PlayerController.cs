@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
         playerAnim = GetComponent<Animator>();
         Physics.gravity *= gravityModifier;
-        dirtParticle.Stop
+        dirtParticle.Stop();
     }
 
     // Update is called once per frame
