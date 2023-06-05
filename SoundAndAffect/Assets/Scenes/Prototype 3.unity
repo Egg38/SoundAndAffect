@@ -365,6 +365,8 @@ MonoBehaviour:
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
+  doubleJumpUsed: 0
+  doubleJumpForce: 400
 --- !u!65 &425302161
 BoxCollider:
   m_ObjectHideFlags: 0
